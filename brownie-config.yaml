@@ -1,0 +1,10 @@
+dependencies:
+  # - <organization/repo>@<version>
+  - OpenZeppelin/openzeppelin-contracts@4.5.0
+  - GNSPS/solidity-bytes-utils@0.8.0
+compiler:
+  solc:
+    version: 0.8.12
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.5.0"
+      - "solidity-bytes-utils=GNSPS/solidity-bytes-utils@0.8.0"
